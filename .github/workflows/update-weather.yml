@@ -2,7 +2,7 @@ name: Update Weather
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: "*/5 * * * *" # 每5分鐘更新一次
   workflow_dispatch:
 
 jobs:
@@ -20,7 +20,13 @@ jobs:
               location: .name,
               temp: .main.temp,
               description: .weather[0].description,
-              updated_at: (now | strftime("%Y-%m-%d %H:%M:%S"))
+              updated_at: (now | strftime("%Y-%m-%d %H:%M:%S")),
+              humidity: .main.humidity,
+              wind_speed: .wind.speed,
+              wind_deg: .wind.deg,
+              feels_like: .main.feels_like,
+              temp_min: .main.temp_min
+              temp_max: .main.temp_max,
             }' > weather.json
 
       - name: Commit and Push
