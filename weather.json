@@ -2,10 +2,10 @@
   "location": "Taipei",
   "temp": 26.64,
   "description": "多雲",
-  "updated_at": "2025-05-17 16:43:15",
+  "updated_at": "2025-05-17 16:50:17",
   "humidity": 73,
-  "wind_speed": 0.89,
-  "wind_deg": 180,
+  "wind_speed": 1.34,
+  "wind_deg": 160,
   "feels_like": 26.64,
   "temp_min": 26.06,
   "temp_max": 27.82
