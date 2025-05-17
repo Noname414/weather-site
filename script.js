@@ -29,33 +29,34 @@ fetch("weather.json")
       雷雨: "fas fa-bolt",
     };
 
-    const icon = weatherIcons[data.description] || "fas fa-cloud";
+    const description = data.weather[0].description;
+    const icon = weatherIcons[description] || "fas fa-cloud";
 
     document.getElementById("weather").innerHTML = `
       <div class="temperature">
-        <i class="${icon}"></i> ${Math.round(data.temp)}°C
+        <i class="${icon}"></i> ${Math.round(data.main.temp)}°C
       </div>
-      <div class="description">${data.description}</div>
+      <div class="description">${description}</div>
       <div class="weather-info">
         <div class="info-item">
           <div class="info-label">體感溫度</div>
-          <div class="info-value">${Math.round(data.feels_like)}°C</div>
+          <div class="info-value">${Math.round(data.main.feels_like)}°C</div>
         </div>
         <div class="info-item">
           <div class="info-label">溫度範圍</div>
-          <div class="info-value">${Math.round(data.temp_min)}°C ~ ${Math.round(
-      data.temp_max
-    )}°C</div>
+          <div class="info-value">${Math.round(
+            data.main.temp_min
+          )}°C ~ ${Math.round(data.main.temp_max)}°C</div>
         </div>
         <div class="info-item">
           <div class="info-label">濕度</div>
-          <div class="info-value">${data.humidity}%</div>
+          <div class="info-value">${data.main.humidity}%</div>
         </div>
         <div class="info-item">
           <div class="info-label">風向/風速</div>
           <div class="info-value">${getWindDirection(
-            data.wind_deg
-          )} ${data.wind_speed.toFixed(1)} m/s</div>
+            data.wind.deg
+          )} ${data.wind.speed.toFixed(1)} m/s</div>
         </div>
         <div class="info-item">
           <div class="info-label">更新時間</div>
@@ -65,6 +66,7 @@ fetch("weather.json")
     `;
   })
   .catch((err) => {
+    console.error("Error:", err);
     document.getElementById("weather").innerHTML = `
       <div class="error">
         <i class="fas fa-exclamation-circle"></i>
