@@ -1,0 +1,32 @@
+name: Update Weather
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Weather Data
+        run: |
+          curl -s "https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=${{ secrets.OPENWEATHER_KEY }}&units=metric&lang=zh_tw" \
+          | jq '{
+              location: .name,
+              temp: .main.temp,
+              description: .weather[0].description,
+              updated_at: (now | strftime("%Y-%m-%d %H:%M:%S"))
+            }' > weather.json
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add weather.json
+          git commit -m "Update weather data" || echo "No changes to commit"
+          git push
