@@ -25,8 +25,8 @@ jobs:
               wind_speed: .wind.speed,
               wind_deg: .wind.deg,
               feels_like: .main.feels_like,
-              temp_min: .main.temp_min
-              temp_max: .main.temp_max,
+              temp_min: .main.temp_min,
+              temp_max: .main.temp_max
             }' > weather.json
 
       - name: Commit and Push
