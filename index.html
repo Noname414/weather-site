@@ -3,14 +3,21 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>台北即時天氣</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="container">
-    <h1>台北目前天氣</h1>
-    <div id="weather">載入中...</div>
+    <h1><i class="fas fa-map-marker-alt"></i> 台北即時天氣</h1>
+    <div class="weather-card">
+      <div id="weather">載入中...</div>
+    </div>
+    <div class="footer">
+      <small>資料每小時更新一次</small>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>

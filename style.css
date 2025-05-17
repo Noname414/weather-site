@@ -1,27 +1,106 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2980b9;
+    --text-color: #333;
+    --light-text: #666;
+}
+
 body {
-    font-family: sans-serif;
-    background-color: #f4f4f4;
+    font-family: "微軟正黑體", sans-serif;
+    background: linear-gradient(135deg, #83a4d4, #b6fbff);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    padding: 20px;
 }
 
 .container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
+    max-width: 400px;
+    width: 100%;
+    backdrop-filter: blur(10px);
 }
 
 h1 {
-    color: #333;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    font-size: 1.8em;
 }
 
-#weather {
-    margin-top: 15px;
+h1 i {
+    margin-right: 10px;
+    color: var(--secondary-color);
+}
+
+.weather-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.weather-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    color: var(--light-text);
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.info-value {
+    color: var(--text-color);
     font-size: 1.2em;
-    color: #555;
+    font-weight: bold;
+}
+
+.temperature {
+    font-size: 2.5em;
+    color: var(--primary-color);
+    margin: 20px 0;
+}
+
+.description {
+    font-size: 1.3em;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+    color: var(--light-text);
+    font-size: 0.8em;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .temperature {
+        font-size: 2em;
+    }
 }
