@@ -24,24 +24,24 @@
   },
   "visibility": 10000,
   "wind": {
-    "speed": 0.95,
-    "deg": 155,
-    "gust": 1.04
+    "speed": 0.45,
+    "deg": 200,
+    "gust": 3.58
   },
   "clouds": {
     "all": 81
   },
-  "dt": 1747669647,
+  "dt": 1747670280,
   "sys": {
     "type": 2,
     "id": 266033,
     "country": "TW",
-    "sunrise": 1747602474,
-    "sunset": 1747650781
+    "sunrise": 1747688850,
+    "sunset": 1747737213
   },
   "timezone": 28800,
   "id": 1668341,
   "name": "Taipei",
   "cod": 200,
-  "updated_at": "2025-05-19 23:51:46"
+  "updated_at": "2025-05-20 00:00:00"
 }
