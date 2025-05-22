@@ -5,35 +5,36 @@
   },
   "weather": [
     {
-      "id": 803,
+      "id": 804,
       "main": "Clouds",
-      "description": "多雲",
+      "description": "陰，多雲",
       "icon": "04d"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 28.84,
-    "feels_like": 31.06,
-    "temp_min": 27.8,
-    "temp_max": 29.93,
+    "temp": 29.29,
+    "feels_like": 29.79,
+    "temp_min": 28.91,
+    "temp_max": 30.04,
     "pressure": 1008,
-    "humidity": 62,
+    "humidity": 48,
     "sea_level": 1008,
-    "grnd_level": 989
+    "grnd_level": 990
   },
   "visibility": 10000,
   "wind": {
-    "speed": 2.06,
-    "deg": 300
+    "speed": 2.13,
+    "deg": 228,
+    "gust": 3.54
   },
   "clouds": {
-    "all": 75
+    "all": 100
   },
-  "dt": 1747871702,
+  "dt": 1747879221,
   "sys": {
     "type": 2,
-    "id": 266033,
+    "id": 68223,
     "country": "TW",
     "sunrise": 1747861606,
     "sunset": 1747910075
@@ -42,5 +43,5 @@
   "id": 1668341,
   "name": "Taipei",
   "cod": 200,
-  "updated_at": "2025-05-22 07:59:21"
+  "updated_at": "2025-05-22 10:00:21"
 }
