@@ -9,6 +9,12 @@
       "main": "Drizzle",
       "description": "小雨",
       "icon": "09n"
+    },
+    {
+      "id": 500,
+      "main": "Rain",
+      "description": "小雨",
+      "icon": "10n"
     }
   ],
   "base": "stations",
@@ -27,10 +33,13 @@
     "speed": 3.6,
     "deg": 90
   },
+  "rain": {
+    "1h": 0.11
+  },
   "clouds": {
     "all": 75
   },
-  "dt": 1748201650,
+  "dt": 1748202159,
   "sys": {
     "type": 2,
     "id": 266033,
@@ -42,5 +51,5 @@
   "id": 1668341,
   "name": "Taipei",
   "cod": 200,
-  "updated_at": "2025-05-26 03:34:10"
+  "updated_at": "2025-05-26 03:42:38"
 }
