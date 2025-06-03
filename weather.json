@@ -22,10 +22,10 @@
     "sea_level": 1008,
     "grnd_level": 989
   },
-  "visibility": 4000,
+  "visibility": 5000,
   "wind": {
     "speed": 3.6,
-    "deg": 110
+    "deg": 100
   },
   "rain": {
     "1h": 1.15
@@ -33,7 +33,7 @@
   "clouds": {
     "all": 75
   },
-  "dt": 1748990803,
+  "dt": 1748991422,
   "sys": {
     "type": 2,
     "id": 266033,
@@ -45,5 +45,5 @@
   "id": 1668341,
   "name": "Taipei",
   "cod": 200,
-  "updated_at": "2025-06-04 06:49:32"
+  "updated_at": "2025-06-04 06:57:49"
 }
