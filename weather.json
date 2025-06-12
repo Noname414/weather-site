@@ -8,7 +8,7 @@
       "id": 803,
       "main": "Clouds",
       "description": "多雲",
-      "icon": "04n"
+      "icon": "04d"
     }
   ],
   "base": "stations",
@@ -30,7 +30,7 @@
   "clouds": {
     "all": 75
   },
-  "dt": 1749761100,
+  "dt": 1749763320,
   "sys": {
     "type": 2,
     "id": 266033,
@@ -42,5 +42,5 @@
   "id": 1668341,
   "name": "Taipei",
   "cod": 200,
-  "updated_at": "2025-06-13 04:58:37"
+  "updated_at": "2025-06-13 05:22:00"
 }
