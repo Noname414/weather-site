@@ -15,7 +15,7 @@
   "main": {
     "temp": 27.76,
     "feels_like": 32.38,
-    "temp_min": 27.25,
+    "temp_min": 27.73,
     "temp_max": 27.82,
     "pressure": 1007,
     "humidity": 86,
@@ -31,7 +31,7 @@
   "clouds": {
     "all": 78
   },
-  "dt": 1749941092,
+  "dt": 1749941678,
   "sys": {
     "type": 2,
     "id": 266033,
@@ -43,5 +43,5 @@
   "id": 1668341,
   "name": "Taipei",
   "cod": 200,
-  "updated_at": "2025-06-15 06:46:20"
+  "updated_at": "2025-06-15 06:54:38"
 }
