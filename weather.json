@@ -8,7 +8,7 @@
       "id": 802,
       "main": "Clouds",
       "description": "多雲",
-      "icon": "03d"
+      "icon": "03n"
     }
   ],
   "base": "stations",
@@ -18,7 +18,7 @@
     "temp_min": 24.93,
     "temp_max": 28.93,
     "pressure": 1008,
-    "humidity": 71,
+    "humidity": 72,
     "sea_level": 1008,
     "grnd_level": 989
   },
@@ -30,7 +30,7 @@
   "clouds": {
     "all": 40
   },
-  "dt": 1751021197,
+  "dt": 1751021728,
   "sys": {
     "type": 2,
     "id": 266033,
@@ -42,5 +42,5 @@
   "id": 1668341,
   "name": "Taipei",
   "cod": 200,
-  "updated_at": "2025-06-27 18:46:36"
+  "updated_at": "2025-06-27 18:55:27"
 }
