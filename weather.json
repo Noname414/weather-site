@@ -8,13 +8,13 @@
       "id": 201,
       "main": "Thunderstorm",
       "description": "雷陣雨",
-      "icon": "11d"
+      "icon": "11n"
     },
     {
       "id": 500,
       "main": "Rain",
       "description": "小雨",
-      "icon": "10d"
+      "icon": "10n"
     }
   ],
   "base": "stations",
@@ -30,16 +30,16 @@
   },
   "visibility": 4000,
   "wind": {
-    "speed": 5.14,
-    "deg": 130
+    "speed": 6.69,
+    "deg": 100
   },
   "rain": {
-    "1h": 0.26
+    "1h": 0.75
   },
   "clouds": {
     "all": 75
   },
-  "dt": 1752317194,
+  "dt": 1752317998,
   "sys": {
     "type": 2,
     "id": 266033,
@@ -51,5 +51,5 @@
   "id": 1668341,
   "name": "Taipei",
   "cod": 200,
-  "updated_at": "2025-07-12 18:51:31"
+  "updated_at": "2025-07-12 18:59:58"
 }
