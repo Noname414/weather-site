@@ -17,21 +17,21 @@
     "feels_like": 30.11,
     "temp_min": 28.91,
     "temp_max": 30.93,
-    "pressure": 1004,
+    "pressure": 1003,
     "humidity": 51,
-    "sea_level": 1004,
+    "sea_level": 1003,
     "grnd_level": 985
   },
   "visibility": 10000,
   "wind": {
-    "speed": 1.34,
+    "speed": 2.24,
     "deg": 180,
     "gust": 3.58
   },
   "clouds": {
     "all": 75
   },
-  "dt": 1752622652,
+  "dt": 1752623360,
   "sys": {
     "type": 2,
     "id": 266033,
@@ -43,5 +43,5 @@
   "id": 1668341,
   "name": "Taipei",
   "cod": 200,
-  "updated_at": "2025-07-16 07:44:46"
+  "updated_at": "2025-07-16 07:54:24"
 }
