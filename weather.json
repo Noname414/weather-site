@@ -5,10 +5,10 @@
   },
   "weather": [
     {
-      "id": 803,
-      "main": "Clouds",
-      "description": "多雲",
-      "icon": "04d"
+      "id": 500,
+      "main": "Rain",
+      "description": "小雨",
+      "icon": "10d"
     }
   ],
   "base": "stations",
@@ -27,10 +27,13 @@
     "speed": 7.72,
     "deg": 80
   },
+  "rain": {
+    "1h": 0.11
+  },
   "clouds": {
     "all": 75
   },
-  "dt": 1752878854,
+  "dt": 1752879422,
   "sys": {
     "type": 2,
     "id": 266033,
@@ -42,5 +45,5 @@
   "id": 1668341,
   "name": "Taipei",
   "cod": 200,
-  "updated_at": "2025-07-19 06:50:36"
+  "updated_at": "2025-07-19 06:58:48"
 }
