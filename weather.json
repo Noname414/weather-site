@@ -14,23 +14,23 @@
   "base": "stations",
   "main": {
     "temp": 28.39,
-    "feels_like": 29.79,
+    "feels_like": 29.55,
     "temp_min": 27.81,
     "temp_max": 28.91,
-    "pressure": 1007,
-    "humidity": 58,
-    "sea_level": 1007,
+    "pressure": 1010,
+    "humidity": 56,
+    "sea_level": 1010,
     "grnd_level": 991
   },
   "visibility": 10000,
   "wind": {
-    "speed": 2.57,
-    "deg": 80
+    "speed": 1.54,
+    "deg": 90
   },
   "clouds": {
     "all": 20
   },
-  "dt": 1755785400,
+  "dt": 1755786852,
   "sys": {
     "type": 2,
     "id": 266033,
@@ -42,5 +42,5 @@
   "id": 1668341,
   "name": "Taipei",
   "cod": 200,
-  "updated_at": "2025-08-21 22:11:05"
+  "updated_at": "2025-08-21 22:34:12"
 }
